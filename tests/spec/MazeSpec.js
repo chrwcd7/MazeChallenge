@@ -5,8 +5,6 @@ describe("MazeChallenge", () => {
   const MazeSolver = require("../../src/MazeSolver");
   
   const filename = filePath.join(__dirname, '..', '..', 'testcases', 'maze1.txt');
-//  const filename = filePath.join(__dirname, '..', '..', 'testcases', 'maze2.txt');
-//  const filename = filePath.join(__dirname, '..', '..', 'testcases', 'maze3.txt');
   
   let file;
   let obj;
